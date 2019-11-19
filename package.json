@@ -1,0 +1,23 @@
+{
+  "name": "https-json",
+  "version": "1.0.0",
+  "description": "API等用ローカルhttps環境",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-mukai/https-json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-mukai/https-json/issues"
+  },
+  "homepage": "https://github.com/y-mukai/https-json#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
