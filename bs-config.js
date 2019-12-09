@@ -37,6 +37,9 @@ module.exports = {
     "port": 3002,
     "middleware": function(req, res, next) {
         res.setHeader('Access-Control-Allow-Origin', '*');
+        res.setHeader('Access-Control-Allow-Credentials', 'true')
+        res.setHeader('Access-Control-Allow-Methods', 'GET,HEAD,OPTIONS,POST,PUT')
+        res.setHeader('Access-Control-Allow-Headers', 'Origin, Content-Type')
         next();
     },
     "serveStatic": [],
